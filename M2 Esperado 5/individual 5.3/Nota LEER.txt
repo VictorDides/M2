@@ -1,0 +1,4 @@
+en el documento se encuentran dos scripts:
+
+scriptauto.js --> corresponde a primera parte de lo solicitado, funcionando el semaforo de forma automatica.
+scrptman.js --> corresponto a segunda parte, donde se solicita que segun cercania del mouse el semaforo encienda sus luces.

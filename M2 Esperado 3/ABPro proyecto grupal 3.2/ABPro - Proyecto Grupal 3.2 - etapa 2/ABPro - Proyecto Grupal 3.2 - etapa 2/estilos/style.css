@@ -1,0 +1,352 @@
+body {
+    background-color: bisque;
+}
+
+.contenedor {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 20px;
+}
+.contenedorproductos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+}
+
+.contenedormarcas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.contenedormarcas img{
+    width: 300px;
+    padding: 10px;
+}
+
+.logo {
+    grid-column: 1;
+    width: auto;
+    text-align: center;
+}
+
+header {
+    grid-column: 2/5;
+    grid-row: 1/1;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.navbar {
+    font-size: 30px;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.todo {
+    display: grid;
+    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    align-items: center;
+}
+
+#auto1 {
+    grid-area: 2/2;
+    text-align: center;
+}
+
+#auto2 {
+    grid-area: 3/2;
+    text-align: center;
+}
+
+#auto3 {
+    grid-area: 4/2;
+    text-align: center;
+}
+
+#auto4 {
+    grid-area: 5/2;
+    text-align: center;
+}
+
+#auto5 {
+    grid-area: 6/2;
+    text-align: center;
+}
+
+#auto6 {
+    grid-area: 7/2;
+    text-align: center;
+}
+
+#auto7 {
+    grid-area: 8/2;
+    text-align: center;
+}
+
+#auto8 {
+    grid-area: 9/2;
+    text-align: center;
+}
+
+#auto9 {
+    grid-area: 10/2;
+    text-align: center;
+}
+
+#auto10 {
+    grid-area: 11/2;
+    text-align: center;
+}
+
+
+#codigo1 {
+    grid-area: 2/1;
+    text-align: center;
+}
+
+#codigo2 {
+    grid-area: 3/1;
+    text-align: center;
+}
+
+#codigo3 {
+    grid-area: 4/1;
+    text-align: center;
+}
+
+#codigo4 {
+    grid-area: 5/1;
+    text-align: center;
+}
+
+#codigo5 {
+    grid-area: 6/1;
+    text-align: center;
+}
+
+#codigo6 {
+    grid-area: 7/1;
+    text-align: center;
+}
+
+#codigo7 {
+    grid-area: 8/1;
+    text-align: center;
+}
+
+#codigo8 {
+    grid-area: 9/1;
+    text-align: center;
+}
+
+#codigo9 {
+    grid-area: 10/1;
+    text-align: center;
+}
+
+#codigo10 {
+    grid-area: 11/1;
+    text-align: center;
+}
+
+/*modelos*/
+#modelo1 {
+    grid-area: 2/3;
+    text-align: center;
+}
+
+#modelo2 {
+    grid-area: 3/3;
+    text-align: center;
+}
+
+#modelo3 {
+    grid-area: 4/3;
+    text-align: center;
+}
+
+#modelo4 {
+    grid-area: 5/3;
+    text-align: center;
+}
+
+#modelo5 {
+    grid-area: 6/3;
+    text-align: center;
+}
+
+#modelo6 {
+    grid-area: 7/3;
+    text-align: center;
+}
+
+#modelo7 {
+    grid-area: 8/3;
+    text-align: center;
+}
+
+#modelo8 {
+    grid-area: 9/3;
+    text-align: center;
+}
+
+#modelo9 {
+    grid-area: 10/3;
+    text-align: center;
+}
+
+#modelo10 {
+    grid-area: 11/3;
+    text-align: center;
+}
+
+/*precios*/
+#precio1 {
+    grid-area: 2/4;
+    text-align: center;
+}
+
+#precio2 {
+    grid-area: 3/4;
+    text-align: center;
+}
+
+#precio3 {
+    grid-area: 4/4;
+    text-align: center;
+}
+
+#precio4 {
+    grid-area: 5/4;
+    text-align: center;
+}
+
+#precio5 {
+    grid-area: 6/4;
+    text-align: center;
+}
+
+#precio6 {
+    grid-area: 7/4;
+    text-align: center;
+}
+
+#precio7 {
+    grid-area: 8/4;
+    text-align: center;
+}
+
+#precio8 {
+    grid-area: 9/4;
+    text-align: center;
+}
+
+#precio9 {
+    grid-area: 10/4;
+    text-align: center;
+}
+
+#precio10 {
+    grid-area: 11/4;
+    text-align: center;
+}
+
+
+#codigo {
+    display: grid;
+}
+
+footer {
+    background-color: rgb(136, 217, 223);
+    width: 100%;
+    padding: 0px;
+    margin-top: 100px;
+    
+
+}
+
+h1, h2, p {
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .Logo img {
+        order: 1;
+        width: 100%;
+        margin-left: 50%;
+        height: auto;
+        justify-items: center;
+        text-align: center;
+    }
+
+
+    header {
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: auto;
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
+    .todo {
+        display: grid;
+        
+
+    }
+    .contenedorproductos{
+        display: block;
+        text-align: center;
+        
+    }
+
+    .contenedormarcas{
+        display: block;
+        text-align: center;
+        
+    }
+
+    footer {
+        width: 100%;
+
+    }
+
+    h1, h2, p {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+

@@ -1,0 +1,84 @@
+
+.encabezado{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(170, 167, 167);
+    border: solid;
+    padding:10px 5px; 
+
+    
+}
+
+#columna1{
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid;
+    padding:10px 5px; 
+    border-radius: 15px; 
+    
+}
+#columna2{
+    background-color: rgb(94, 233, 233);
+    padding-left: 20px;
+   
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid;
+    padding:10px 5px; 
+    border-radius: 15px; 
+   
+    
+    
+}
+#columna2 h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#columna2:hover {
+    background-color: white;
+    
+   
+  }
+  
+#columna1:hover {
+    position: relative;
+    animation-name: vibra;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+  @keyframes vibra {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: -20px;
+    }
+
+    50% {
+        left: 0px;
+        top: 20px;
+    }
+
+    75% {
+        left: 0px;
+        top: 20px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-primary);
+  }
+  

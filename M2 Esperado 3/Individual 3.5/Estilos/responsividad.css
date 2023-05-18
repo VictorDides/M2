@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px){
+    .columnas{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+
+    }
+    #columna2{
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+       
+
+   }
+   
+   @media screen and (max-width: 420px){
+    .columnas{
+       display: grid;
+       grid-template-columns: 1fr;
+
+    }
+    #columna2{
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+       
+
+   }

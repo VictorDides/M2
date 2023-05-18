@@ -1,0 +1,118 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: 'Courier New', Courier;
+    border: 10px solid blue;
+    justify-self: center;
+    background-image: url(https://images.pexels.com/photos/1227511/pexels-photo-1227511.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+nav{
+    border: 5px;
+    border-radius: 100px;
+    font-family: Arial;
+}
+.panel{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.seccion1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.seccion2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+  
+.seccion1:hover {
+    background-color: white;
+    color: green;
+  }
+.seccion2:hover {
+    background-color: white;
+    color: green;
+  }
+footer{
+    font-family: Courier;
+    color: white; 
+    background-color: gray; 
+    border: none; 
+   ;
+}
+#noticias-destacadas{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    
+}
+#noticias-destacadas:hover {
+    background-color: white;
+    color: green;
+  }
+#motores-de-busqueda{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#motores-de-busqueda:hover {
+    background-color: white;
+    color: green;
+  }
+#diarios{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#diarios:hover {
+    background-color: white;
+    color: green;
+  }
+#finanzas{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#finanzas:hover {
+    background-color: white;
+    color: green;
+  }
+#libros{
+    justify-content: center;
+    background-color: green;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#libros:hover {
+    background-color: white;
+    color: green;
+  }

@@ -1,0 +1,38 @@
+
+
+img{
+  object-fit: cover;
+  width:200px;
+  height:200px;
+}
+.etiqueta{
+  background-color: gray;
+  gap: 1px ;
+  border: px solid black;
+  width:200px;
+  margin: 1px;
+  background-size: contain;
+  
+}
+
+/* Celulares */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h3,
+p {
+  width: 100%;
+}
+/* Computador */
+@media screen and (min-width: 1280px) {
+  .contenedor {
+      display:grid;
+      grid-template-columns: repeat(3,400px);
+  }
+  .foto{
+    margin: 10px;
+  }
+ 
+}
